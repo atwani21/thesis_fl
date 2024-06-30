@@ -30,6 +30,7 @@ Training Service
 Endpoint: http://localhost:5000/train
 Purpose: Train a model using provided training data (X_train, y_train).
 Example Usage (PowerShell/Command Prompt):
+
 $headers = @{
     "Content-Type" = "application/json"
 }
@@ -47,6 +48,7 @@ $response
 Endpoint: http://localhost:5002/aggregate
 Purpose: Aggregate client updates using specified parameters (client_params).
 Example Usage (PowerShell/Command Prompt):
+
 $headers = @{
     "Content-Type" = "application/json"
 }
@@ -64,6 +66,7 @@ $response
 Endpoint: http://localhost:5003/evaluate
 Purpose: Evaluate a trained model using provided test data (X_test, y_test).
 Example Usage (PowerShell/Command Prompt):
+
 $headers = @{
     "Content-Type" = "application/json"
 }
